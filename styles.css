@@ -636,7 +636,8 @@ h3 {
   min-height: 620px;
   overflow: hidden;
   background:
-    radial-gradient(circle at center, rgba(103, 232, 249, 0.08), transparent 28%),
+    radial-gradient(circle at center, rgba(103, 232, 249, 0.13), transparent 24%),
+    radial-gradient(circle at center, rgba(139, 92, 246, 0.10), transparent 34%),
     rgba(255, 255, 255, 0.03);
 }
 
@@ -672,20 +673,6 @@ h3 {
 .node-4 { top: 220px; right: 10px; }
 .node-5 { bottom: 40px; left: 70px; }
 .node-6 { bottom: 40px; right: 70px; }
-
-.connector {
-  position: absolute;
-  background: linear-gradient(90deg, rgba(103, 232, 249, 0.4), rgba(139, 92, 246, 0.35));
-  height: 2px;
-  transform-origin: left center;
-}
-
-.c1 { width: 140px; top: 138px; left: 212px; transform: rotate(18deg); }
-.c2 { width: 138px; top: 140px; right: 214px; transform: rotate(-18deg); }
-.c3 { width: 155px; top: 295px; left: 212px; transform: rotate(-8deg); }
-.c4 { width: 150px; top: 295px; right: 210px; transform: rotate(8deg); }
-.c5 { width: 150px; bottom: 138px; left: 250px; transform: rotate(16deg); }
-.c6 { width: 150px; bottom: 138px; right: 250px; transform: rotate(-16deg); }
 
 .timeline {
   position: relative;
